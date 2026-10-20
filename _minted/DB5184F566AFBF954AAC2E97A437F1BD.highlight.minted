@@ -1,0 +1,11 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{InsertionSort}\PYG{p}{(}\PYG{n}{A}\PYG{p}{)}     \PYG{c+c1}{\PYGZsh{}c0}
+    \PYG{n}{m} \PYG{o}{=} \PYG{n}{A}\PYG{o}{.}\PYG{n}{length}     \PYG{c+c1}{\PYGZsh{}c1}
+    \PYG{k}{for} \PYG{n}{j} \PYG{o}{=} \PYG{l+m+mi}{2} \PYG{n}{to} \PYG{n}{m}   \PYG{c+c1}{\PYGZsh{}nc2}
+        \PYG{n}{key} \PYG{o}{=} \PYG{n}{A}\PYG{p}{[}\PYG{n}{j}\PYG{p}{]}   \PYG{c+c1}{\PYGZsh{}(n\PYGZhy{}1)c3}
+        \PYG{n}{i} \PYG{o}{=} \PYG{n}{j} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}    \PYG{c+c1}{\PYGZsh{}(n\PYGZhy{}1)c4}
+        \PYG{k}{while} \PYG{n}{i} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n}{A}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{o}{\PYGZgt{}} \PYG{n}{key} \PYG{c+c1}{\PYGZsh{} sum (t\PYGZus{}j+1)c5}
+            \PYG{n}{A}\PYG{p}{[}\PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{=} \PYG{n}{A}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}       \PYG{c+c1}{\PYGZsh{} sum t\PYGZus{}j c6}
+            \PYG{n}{i} \PYG{o}{=} \PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}             \PYG{c+c1}{\PYGZsh{} sum t\PYGZus{}j c7}
+        \PYG{n}{A}\PYG{p}{[}\PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{=} \PYG{n}{key}            \PYG{c+c1}{\PYGZsh{}(n\PYGZhy{}1)c8}
+\end{MintedVerbatim}
